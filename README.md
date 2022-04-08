@@ -18,14 +18,14 @@ Requires the Image Processing Toolbox!
 
 1. Find an image with a colorbar you want (e.g., take a screenshot)
 
-2. Call `cmap = cmap_picker(impath)`
-   This will open a figure window with your image in it.
+2. Call `cmap = cmap_picker(image_path)`
+   This will open a figure window with your image displayed in it.
+   (Don't forget to edit `image_path` to be your image's path!)
 
-3. Draw a rectancgle with your mouse (click-and-drag)
+3. And draw a rectancgle with your mouse (click-and-drag)!
    A colormap will be built by averaging over the colorbar's "width"
    (depending on the orientation of your rectangle).
-   A colorbar will also be added next to the figure to show you the colormap
-   you just made.
+   And a colorbar will be added to the figure to show you the colormap you just created.
 
 ## Example:
 
@@ -35,6 +35,6 @@ Try this command and select whichever colorbar you want!
 cmap = cmap_picker('https://matplotlib.org/stable/_images/sphx_glr_colormaps_001_2_0x.png');
 ```
 
-and select the colormap of your choice, which will be saved in the variable `cmap` above. You can then save it or use it as you would anyother colormap!
+You can then save the variable `cmap` or use it once, as you would anyother colormap!
 
 [![View cmap_picker on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://au.mathworks.com/matlabcentral/fileexchange/109635-cmap_picker)
