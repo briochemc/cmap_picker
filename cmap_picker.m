@@ -45,17 +45,17 @@ image = imread(impath);
 % Select colorbar from it
 imshow(image)
 rect = drawrectangle().Position;
-
 captured_cbar = imcrop(image, rect);
-[h, w, ~] = size(captured_cbar);
 
+% Chose orientation along the largest dimension of rectangle
+[h, w, ~] = size(captured_cbar);
 if h >= w
     cmap = flipud(squeeze(mean(captured_cbar, 2))) / 256;
 else
     cmap = squeeze(mean(captured_cbar, 1)) / 256;
 end
 
-% show it to be sure ti worked
+% Show the colormap in a colorbar to check it worked
 colormap(cmap)
 colorbar()
 
