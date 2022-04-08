@@ -35,5 +35,4 @@ cmap = cmap_picker('https://matplotlib.org/stable/_images/sphx_glr_colormaps_001
 
 and select the colormap of your choice, which will be saved in the variable `cmap` above. You can then save it or use it as you would anyother colormap!
 
-
-
+[![View cmap_picker on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://au.mathworks.com/matlabcentral/fileexchange/109635-cmap_picker)
