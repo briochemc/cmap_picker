@@ -1,6 +1,6 @@
 # cmap_picker
 
-Pick a colormap from the colorbar in an image.
+Pick the colormap from a colorbar in an image.
 
 When you want to compare your results with someone else's, it can be hard to reproduce a map or a plot with a colormap that you don't have in your setup. This tool allows you to create a colormap that matches that of any figure. You just have to accurately select where the colorbar is on the image/figure.
 
